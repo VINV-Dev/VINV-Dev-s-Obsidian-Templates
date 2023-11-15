@@ -34,7 +34,13 @@ To make full use of these templates, you should install and enable the following
 - [Breadcrumbs](https://github.com/SkepticMystic/breadcrumbs)
 - [Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes)
 
-Add the templates you wish into a folder in your Obsidian vault. Next, navigate to the settings for the Templater plugin and ensure that the folder containing the templates is designated as the tmplates folder for Templater to use. I use the following folders to store these notes:
+Add any templates you wish to use into a folder in your vault titled "Templates". Next, navigate to the settings for the Templater plugin and make sure that this folder is designated as the folder containing all templates for Templater to use.
+
+To use the templates, create a new note and invoke the Command Pallette with Ctrl + P (Command + P for Mac). Select Insert Templater template, then navigate to your desired tempalte.
+
+## Folder Hierarchy
+### General Note Folders
+At the moment, I currently use both the PARA method and original zettelkasten method, made famous by Nicholas Luhman. 
 
 - 1 - Projects
 - 2 - Areas
@@ -50,11 +56,6 @@ In contrast, my zettels are very small and granular. They often stem from source
 
 ### Periodic Notes
 All my periodic notes reside in a folder titled "Periodic Notes". Each note goes into a folder for its corresponding year. For example, "2023-11-15.md" belongs in "Periodic Notes/2024". My templates have a Templater code line that ensures they are placed in the corresponding year's folder in the Periodic Notes folder. If you want to change this functionality, change the line containing "tp.file.move".
-
-
-## Folder Hierarchy
-### General Note Folders
-At the moment, I currently use both the PARA method and original zettelkasten method, made famous by Nicholas Luhman. 
 
 ## Issues or Questions
 
