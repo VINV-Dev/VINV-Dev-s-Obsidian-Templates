@@ -3,7 +3,7 @@ type: Area
 due: 
 archive: false
 ---
-# <%tp.file.title,%><%tp.file.move("2 - Areas/" + tp.file.title)%>
+
 up:: <%tp.file.cursor()%>
 ## Collections
 ```dataview
